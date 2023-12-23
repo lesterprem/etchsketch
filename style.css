@@ -1,0 +1,29 @@
+.gridcontainer{
+  
+ display: flex; 
+ flex-wrap: wrap;
+}
+
+.gridcontainer>* {
+    background-color: aliceblue;
+    flex: 1 1 0;
+    height: 10px;
+    width: 20%;
+    margin: 2px;
+    
+}
+
+.gridcontainer>*:hover{
+    background-color: blue;
+    transition: opacity 2s ease 0.4s transform 0.8s ease;
+}
+
+button{
+    size: 50px 100px;
+    background-color: lightgrey;
+    padding: 10px;
+    margin: 30px;
+    border: black;
+    font-weight: 500;
+    border-width: 5px;
+}
